@@ -1,0 +1,14 @@
+{
+  "Information" : [],
+
+  "profile":"PROFILE_NAME",
+  "region" : "REGION_ANME",
+  "configuration" : "Release",
+  "framework" : "netcoreapp1.0",
+  "function-runtime":"dotnetcore1.0",
+  "function-name": "FUNCTION_NAME",
+  "function-memory-size" : 128,
+  "function-timeout" : 300,
+  "function-handler" : "ASSEMBLY_NAME::CLASS_NAME::FUNCTION_NAME",
+  "function-role": "arn:aws:iam::ACCOUNT_ID:role/ROLE_NAME"
+}
